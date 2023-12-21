@@ -1,5 +1,16 @@
 ### InnoDB:
 
+-  B+tree with indexes point to hte primary key and the PK points to the row
+- Replaces MyISAM
+- Default for MySQL & MariaDB
+- ACID compliant transactions support
+- Foreign keys
+- Tablespaces
+- Row level locking
+- Spatial operations
+- Owned by Oracle
+
+
 1. **Data Storage:**
     - InnoDB stores data in a clustered index called the "primary key" index, where the data rows are stored in the leaf nodes of the index itself.
     - It uses a dynamic row format, allowing for variable-length rows, which can be more efficient in terms of storage.

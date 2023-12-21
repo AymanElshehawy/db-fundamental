@@ -1,4 +1,12 @@
 # XtraDB
+
+- Fork of InnoDB
+- Was the default for MAriaDB until 10.1
+- In MariaDB 10.2 switched the default for InnoDB
+- XtraDB couldn't be kept up to date with the latest features of InnoDB and cannot be used
+- System tables in MariaDB starting with 10.4 are all `Aria`
+
+
 XtraDB is a storage engine for the MySQL relational database management system (RDBMS). It is an enhanced version of the **InnoDB** storage engine and was developed by Percona, a company that provides MySQL and PostgreSQL support, consulting, and related services. Percona designed XtraDB to address some limitations and performance issues in the standard InnoDB storage engine while maintaining compatibility with MySQL.
 
 Key features of XtraDB include:

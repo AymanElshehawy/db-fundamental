@@ -1,4 +1,10 @@
 # Berkeley
+- Developed by Sleepycat Software in 1994 (Owned by Oracle)
+- Key-value embedded database
+- Supports ACID transactions, locks, replications...
+- Used to be in bitcoin core (switched to LevelDB)
+- Used MemcacheDB 
+
 The Berkeley DB (BDB) engine, often referred to as the Berkeley DB, is an embedded database library developed by Oracle Corporation. It provides a high-performance, ACID-compliant key-value store with a simple API for data access. Berkeley DB is not a traditional relational database management system (RDBMS) but rather a library that developers can embed within their applications.
 
 Key features of the Berkeley DB engine include:

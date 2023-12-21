@@ -1,4 +1,14 @@
 ### ISAM (Indexed Sequential Access Method):
+- Stand for Indexed Sequential Access Method
+- B-tree (Balanced tree) indexes point to the rows directly
+- No Transaction support
+- Open Source & Owned by Oracle
+- Inserts fast, updates and deletes are problematic (fragments)
+- Database Crashes corrupts tables (have to manually repair)
+- Table Level Locking
+- MySQL, MariaDB, Percona (MySQL forks) supports MyISAM
+- Used to be default engine for MySQL
+
 
 1. **Data Storage:**
     - ISAM stores data in fixed-length rows, meaning that each row has a predetermined size.

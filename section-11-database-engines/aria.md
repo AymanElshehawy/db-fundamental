@@ -1,5 +1,13 @@
 # Aria
-- Aria is a storage engine used in the MariaDB relational database management system. MariaDB is a fork of MySQL and was created by the original developers of MySQL after concerns arose over the acquisition of MySQL by Oracle Corporation. Aria is designed to be a replacement for the MyISAM storage engine, providing enhanced features and improvements.
+-  Created by Michael Widenius
+- Very similar to MyISAM
+- Crash-safe unlike MyISAM
+- Not owned by Oracle
+- Designed specially for MariaDB (MySQL Fork)
+- In MariaDB 10.4 all systems tables are `Aria`
+
+
+Aria is a storage engine used in the MariaDB relational database management system. MariaDB is a fork of MySQL and was created by the original developers of MySQL after concerns arose over the acquisition of MySQL by Oracle Corporation. Aria is designed to be a replacement for the MyISAM storage engine, providing enhanced features and improvements.
 
 - Key features and characteristics of the Aria storage engine include:
 

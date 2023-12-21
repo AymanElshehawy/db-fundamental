@@ -1,4 +1,15 @@
-SQLite is a software library that provides a relational database management system (RDBMS). Unlike traditional client-server database management systems, SQLite is serverless, self-contained, and embedded within the application that uses it. It is a C library that provides a lightweight, file-based database engine.
+# SQLite
+- Designed by D.Richard Hipp in 2000
+- Very populate embedded database for local data
+- B-tree (LSM as extension)
+- Postgres-like syntax
+- Full ACID & table locking
+- Concurrent read & writes
+- Web SQL in browsers uses it
+- Included in many operating systems by default
+
+
+is a software library that provides a relational database management system (RDBMS). Unlike traditional client-server database management systems, SQLite is serverless, self-contained, and embedded within the application that uses it. It is a C library that provides a lightweight, file-based database engine.
 
 Key features of the SQLite database engine include:
 
