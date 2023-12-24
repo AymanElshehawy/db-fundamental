@@ -1,6 +1,6 @@
 # LevelDB
 - Written by Jeff and Sanjay from Google in 2011
-- Log structure merge tree (LSM) (great for high insert abd SSD)
+- Log structure merge tree (LSM) (great for high insert and SSD)
 - No transactions
 - Inspired by Google BigTable
 - Level of files
