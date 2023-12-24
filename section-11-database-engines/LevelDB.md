@@ -1,0 +1,11 @@
+# LevelDB
+- Written by Jeff and Sanjay from Google in 2011
+- Log structure merge tree (LSM) (great for high insert abd SSD)
+- No transactions
+- Inspired by Google BigTable
+- Level of files
+  - Memtable
+  - Level 0 (young level)
+  - Level 1 - 6
+- As files grow large levels are merged
+- Used in bitcoin core blockchain, AutoCad, Minecraft

@@ -3,7 +3,7 @@
 - Key-value embedded database
 - Supports ACID transactions, locks, replications...
 - Used to be in bitcoin core (switched to LevelDB)
-- Used MemcacheDB 
+- Used MemcacheDB
 
 The Berkeley DB (BDB) engine, often referred to as the Berkeley DB, is an embedded database library developed by Oracle Corporation. It provides a high-performance, ACID-compliant key-value store with a simple API for data access. Berkeley DB is not a traditional relational database management system (RDBMS) but rather a library that developers can embed within their applications.
 
@@ -16,7 +16,7 @@ Key features of the Berkeley DB engine include:
     - Berkeley DB is essentially a key-value store where data is stored in pairs of keys and values. This simplicity makes it efficient for certain use cases, such as caching and small-scale data storage.
 
 3. **ACID Compliance:**
-    - Berkeley DB provides ACID properties (Atomicity, Consistency, Isolation, Durability) to ensure data integrity and reliability, even in the presence of failures.
+    - Berkeley DB provides ACID properties  (Atomicity, Consistency, Isolation, Durability) to ensure data integrity and reliability, even in the presence of failures.
 
 4. **High Performance:**
     - Berkeley DB is known for its high performance, especially in read-intensive and write-intensive scenarios. It is optimized for low-latency data access.
